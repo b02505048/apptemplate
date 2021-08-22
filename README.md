@@ -2,8 +2,6 @@
 
 A template to kick start Flutter project.
 
-
-
 ## Project Structure
 
 ```
@@ -11,9 +9,11 @@ A template to kick start Flutter project.
 ├── fonts                       // custom fonts
 ├── functions                   // cloud functions & online database functions
 └── libs
+    ├── configs                  // constants that can be configured & used in models
+    │
     ├── models                  // collections of data, e.g. User class, Post class
     │
-    ├── screens 
+    ├── screens
     │   ├── home
     │   │   ├── local_widgets   // to keep those big widgets used in home.dart
     │   │   └── home.dart
@@ -30,8 +30,6 @@ A template to kick start Flutter project.
     │
     └── main.dart               // entry point & navigations
 ```
-
-
 
 ## Getting Started
 

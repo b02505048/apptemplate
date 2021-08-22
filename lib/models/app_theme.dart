@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
-import '/models/app_theme_config.dart';
+import '/configs/app_theme_config.dart';
 import '/services/local_storage_service.dart';
 
 // Export the object of Theme
 // Theme theme = Theme();
 
 class AppTheme with ChangeNotifier {
-
   // Private variable
   bool _isDarkTheme = false;
-  
+
   // Default constructor
   AppTheme({bool? isDark}) {
     _isDarkTheme = isDark ?? false;
